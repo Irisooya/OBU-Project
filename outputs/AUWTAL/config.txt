@@ -1,0 +1,26 @@
+Configurtaions:
+- act_thresh_cas: [0.    0.025 0.05  0.075 0.1   0.125 0.15  0.175 0.2   0.225]
+- act_thresh_magnitudes: [0.4   0.425 0.45  0.475 0.5   0.525 0.55  0.575 0.6  ]
+- alpha: 0.0005
+- batch_size: 16
+- beta: 1
+- class_thresh: 0.2
+- data_path: ./dataset/THUMOS14
+- feature_fps: 25
+- gt_path: ./dataset/THUMOS14\gt.json
+- len_feature: 2048
+- log_path: ./log/AUWTAL
+- lr_str: [0.0001]*2000
+- margin: 100
+- modal: all
+- model_file: ./models/AUWTAL/model_seed_1.pkl
+- model_path: ./models/AUWTAL
+- num_classes: 20
+- num_iters: 2000
+- num_segments: 750
+- num_workers: 4
+- output_path: ./outputs/AUWTAL
+- r_act: 9
+- r_bkg: 4
+- scale: 24
+- seed: -1
